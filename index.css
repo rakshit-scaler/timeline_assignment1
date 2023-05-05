@@ -16,6 +16,14 @@ body {
     position: relative;
 }
 
+/* scss type code for the same  
+.outer {
+    @at-root #{&}__bar {}
+
+    @at-root #{&}__cardOuter {}
+} */
+
+
 
 .outer__bar {
     width: 4px;
