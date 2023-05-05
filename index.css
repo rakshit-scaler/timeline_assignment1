@@ -66,15 +66,18 @@ body {
     height: fit-content;
     padding-left: 1rem;
 }
-
+.text{
+    width:100%;
+    height:100%;
+}
 
 /* scss type code for the same  
 .card__text {
     @at-root #{&}__bullet {}
 
-    @at-root #{&}__text--heading {}
+    @at-root #{&}--heading {}
 
-    @at-root #{&}__text--subheading {}
+    @at-root #{&}--subheading {}
 } */
 
 
@@ -88,12 +91,12 @@ body {
 }
 
 
-.card__text--heading {
+.text--heading {
     font-size: 19px;
     font-weight: 700;
 }
 
-.card__text--subheading {
+.text--subheading {
     font-size: 19px;
     font-weight: 300;
 }
